@@ -9,21 +9,21 @@ print("umur saya 23 tahun")
 print("Hello world")
 
 def convert_temperature(degrees, from_unit, to_unit):
-    # def celsius_to_fahrenheit(celsius_degrees):
-    #     celsius_to_fahrenheit = (celsius_degrees * 9/5) + 32
+    def celsius_to_fahrenheit(celsius_degrees):
+        celsius_to_fahrenheit = (celsius_degrees * 9/5) + 32
         
-    #     return celsius_to_fahrenheit
+        return celsius_to_fahrenheit
     
-    # def fahrenheit_to_celsius(fahrenheit_degrees):
-    #     fahrenheit_to_celsius = (fahrenheit_degrees - 32) * 5/9
+    def fahrenheit_to_celsius(fahrenheit_degrees):
+        fahrenheit_to_celsius = (fahrenheit_degrees - 32) * 5/9
 
-    #     return fahrenheit_to_celsius
+        return fahrenheit_to_celsius
     
     if from_unit == "C" and to_unit == "F":
         return "bbbbb"
     elif from_unit == "F" and to_unit == "C":
-        return 'aaaa'
-        # return fahrenheit_to_celsius(degrees)
+        # return 'aaaa'
+        return fahrenheit_to_celsius(degrees)
     else:
         return degrees
     
