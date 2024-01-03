@@ -8,7 +8,7 @@ print("umur saya 23 tahun")
 # test comment
 print("Hello world")
 
-def convert_temperature(degrees, from_unit, to_unit):
+def convert_temperature_uhuy(degrees, from_unit, to_unit):
     def celsius_to_fahrenheit(celsius_degrees):
         celsius_to_fahrenheit = (celsius_degrees * 9/5) + 32
         
@@ -30,8 +30,8 @@ def convert_temperature(degrees, from_unit, to_unit):
 celsius = 30
 fahrenheit = 75
 
-convert_temperature_1 = convert_temperature(celsius,'C','F')
-convert_temperature_2 = convert_temperature(fahrenheit,'F','C')
+convert_temperature_1 = convert_temperature_uhuy(celsius,'C','F')
+convert_temperature_2 = convert_temperature_uhuy(fahrenheit,'F','C')
 
 print(f"{celsius} derajat celsius adalah {convert_temperature_1:.2f} derajat fahrenheit")
 print(f"{fahrenheit} derajat fahrenheit adalah {convert_temperature_2:.2f} derajat celsius")
