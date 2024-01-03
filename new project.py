@@ -6,4 +6,4 @@ print("umur saya 23 tahun")
 
 print("testing")
 
-print("Hello")
+print("Hello world")
