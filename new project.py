@@ -14,15 +14,16 @@ def convert_temperature(degrees, from_unit, to_unit):
         
         return celsius_to_fahrenheit
     
-    def fahrenheit_to_celsius(fahrenheit_degrees):
-        fahrenheit_to_celsius = (fahrenheit_degrees - 32) * 5/9
+    # def fahrenheit_to_celsius(fahrenheit_degrees):
+    #     fahrenheit_to_celsius = (fahrenheit_degrees - 32) * 5/9
 
-        return fahrenheit_to_celsius
+    #     return fahrenheit_to_celsius
     
     if from_unit == "C" and to_unit == "F":
         return celsius_to_fahrenheit(degrees)
     elif from_unit == "F" and to_unit == "C":
-        return fahrenheit_to_celsius(degrees)
+        return 'aaaa'
+        # return fahrenheit_to_celsius(degrees)
     else:
         return degrees
     
