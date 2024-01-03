@@ -1,7 +1,7 @@
 # test comment
 print("Halo nama saya askar")
 
-print("saya tinggal di jawa barat") # test comment
+print("saya tinggal di jawa barat")
 
 print("umur saya 23 tahun")
 
